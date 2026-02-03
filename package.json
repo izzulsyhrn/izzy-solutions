@@ -1,16 +1,15 @@
 {
-  "name": "izzy-solutins",  // Tukar ke nama project kau kalau nak (dulu "my-v0-project")
-  "version": "0.1.0",
+  "name": "izzy-solutins",  
   "private": true,
-  "homepage": "https://izzulsyahiran.github.io/izzy-solutions",  // <-- WAJIB: Ganti dengan URL Pages kau betul (username + repo)
+  "homepage": "https://izzulsyahiran.github.io/izzy-solutions",  
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next build && next export",  // <-- Tambah ni untuk static export (output ke folder 'out')
+    "export": "next build && next export",  
     "start": "next start",
     "lint": "eslint .",
-    "predeploy": "npm run export",  // <-- Auto build + export sebelum deploy
-    "deploy": "gh-pages -d out"     // <-- Push folder 'out' ke branch gh-pages
+    "predeploy": "npm run export",  
+    "deploy": "gh-pages -d out"     
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
